@@ -1,16 +1,19 @@
 # Shikat
 
-A new Flutter project.
+A Flutter program to print checks and receipts using, C# and .Net.
 
-## Getting Started
+## Running the release
 
-This project is a starting point for a Flutter application.
+- This project is a demo version of the application, <br>
+C# code source not provided there
+as it's not used directly.
 
-A few resources to get you started if this is your first Flutter project:
+- The scanning and printing extentions will be provided in the demo release version.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Demo release in our Telegram channel:
+You need just to download this resources first and follow the instructions bellow
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- [Try the release of the demo](https://t.me/nexapros/35)
+- [SDK there](https://t.me/nexapros/35)
+- [Used MongoDb version](https://t.me/nexapros/35)
+
