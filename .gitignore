@@ -33,6 +33,7 @@ migrate_working_dir/
 /build/
 /lib/utils
 /printing
+/scanning
 
 # Symbolication related
 app.*.symbols
