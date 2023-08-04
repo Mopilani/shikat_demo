@@ -3,21 +3,15 @@ import 'dart:io';
 import 'dart:typed_data';
 import 'dart:ui' as ui;
 
-import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 import 'package:overlay_support/overlay_support.dart';
 import 'package:pdf/pdf.dart' as pdf;
 import 'package:pdfx/pdfx.dart';
 import 'package:shikat/models/ornik_model.dart';
-import 'package:shikat/models/processes_model.dart';
-import 'package:shikat/models/shik_model.dart';
 import 'package:shikat/models/system_config.dart';
-import 'package:shikat/models/system_node_model.dart';
 import 'package:shikat/spell_number.dart';
 import 'package:updater/updater.dart' as updater;
-
-import '../../models/subscription_model.dart';
 
 class KhetabView extends StatefulWidget {
   const KhetabView({
@@ -347,28 +341,28 @@ class _InvoiceState extends State<Invoice> {
   @override
   void initState() {
     super.initState();
-    getAwaiters();
+    // getAwaiters();
   }
 
-  Future getAwaiters() async {
-    int inc = 0;
-    int max = 16;
-    // print(inc);
-    // print(widget.subscriper.subs.length);
-    // for (var i = widget.startIndex; i < widget.subscriper.subs.length; i++) {
-    //   // print(i);
-    //   var subData = widget.subscriper.subs[i];
-    //   if (inc >= max) return;
-    //   var sub = await SubscriptionModel.get(subData.id);
-    //   if (sub != null) {
-    //     // Navigator.pop(context);
+  // Future getAwaiters() async {
+  //   int inc = 0;
+  //   int max = 16;
+  //   // print(inc);
+  //   // print(widget.subscriper.subs.length);
+  //   // for (var i = widget.startIndex; i < widget.subscriper.subs.length; i++) {
+  //   //   // print(i);
+  //   //   var subData = widget.subscriper.subs[i];
+  //   //   if (inc >= max) return;
+  //   //   var sub = await SubscriptionModel.get(subData.id);
+  //   //   if (sub != null) {
+  //   //     // Navigator.pop(context);
 
-    //     subs.addAll({sub.id: sub});
-    //   }
-    //   PainterUpdater().add(0);
-    //   inc++;
-    // }
-  }
+  //   //     subs.addAll({sub.id: sub});
+  //   //   }
+  //   //   PainterUpdater().add(0);
+  //   //   inc++;
+  //   // }
+  // }
 
   // Map<String, SubscriptionModel> subs = {};
 
